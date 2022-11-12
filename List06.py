@@ -6,5 +6,7 @@ def main(fruits):
     Returns:
         int: return answer
     """
+    a = []
     a = len(fruits)
     return a
+print(main([1,2,3,4]))
