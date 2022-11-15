@@ -6,5 +6,6 @@ def main(list01):
     Returns:
         int: return answer
     """
-    a = list01.count('0')
+    a = list01.count(0)
     return a
+print(main([0,0,1,1,0]))
